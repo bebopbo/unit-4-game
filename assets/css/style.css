@@ -1,0 +1,99 @@
+html, body{
+     height: 100%;
+    background-image: linear-gradient(rgba(0, 204, 255, 0.678), rgba(132, 0, 255, 0.466)), url("../images/background_img.jpg");
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 600px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 27%;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 25px;
+       
+}
+
+.rules {
+    width: 600px;
+    text-align: center;
+    background: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 27%;
+    padding: 30px;
+    border-radius: 25px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 140px 140px;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    overflow: hidden;
+    
+
+}
+
+#randomNumber {
+    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    background: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+#playerScore {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    padding: 10px;
+   background: whitesmoke;
+   border-radius: 10px;
+
+}
+
+#userScore {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    text-align: center;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
+
+}
+
+.mixedCrys {
+    grid-column: 5;
+    grid-row: 1;
+    border-style: double;
+}
+
+.blackCrys {
+    grid-column: 6;
+    grid-row: 1;
+    border-style: double;
+
+}
+
+.purpleCrys {
+    grid-column: 11;
+    grid-row: 2;
+    border-style: double;
+
+}
+
+.whiteCrys {
+    grid-column: 12;
+    grid-row: 2;
+    border-style: double;
+
+}
+
+
+

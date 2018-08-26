@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal_Collector-HW</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>
+            Crystal Collector
+        </h1>
+    </div>
+
+    <!-- End Header -->
+
+    <!-- Rules -->
+    <div class="rules">
+        <p>You will be presented with a random number assets the start of each game.</p>
+        <p>There are four crystals below, each crystal will have a random value that will be added to your total score per
+            click.
+        </p>
+        <p>To win the game you must match the presented number.</p>
+        <p>If you go over the given number you will lose.</p>
+    </div>
+    <!-- End Rules -->
+
+    <div class="grid-container">
+
+        <div id="playerScore">
+
+            <p id="playerWins">Wins:</p>
+            <br>
+            <p id="playerLosses">Losses:</p>
+
+        </div>
+
+        <div id="randomNumber">
+            <p>Guess Me!</p>
+        </div>
+
+        <div id="userScore">
+
+        </div>
+
+        <div class="total-score">
+
+        </div>
+
+        <button type="submit"><img class="mixedCrys" id= "one" src="assets/images/crystal.jpeg" alt="mixed color crystal"></button>
+        <button type="submit"><img class="blackCrys" id= "two" src="assets/images/crystal2.jpeg" alt="black crystal"></button>
+        <button type="submit"><img class="purpleCrys" id= "three" src="assets/images/crystal3.jpeg" alt="purple crystal"></button>
+        <button type="submit"><img class="whiteCrys" id= "four" src="assets/images/crystal4.jpeg" alt="white crystal"></button>
+        
+        
+
+    </div>
+
+
+
+
+    <script> src="assets/js/game.js" </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
